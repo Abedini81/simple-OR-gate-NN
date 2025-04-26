@@ -26,19 +26,15 @@ W1 = [4.53749557], W2 = [4.53528661], bias = [-2.00368412], Loss = [0.00623779]
 
 ## Graph
 
-> **[output.png]**
+> **![Loss Values](output.png)**
 
 ## Conclusion
 
 The loss graph demonstrates that the model successfully minimized the error over training epochs.  
-The training started with a relatively high loss (~0.149) and steadily decreased to a very low value (~0.006), indicating that the neural network effectively learned the OR gate logic.
+The training started with a relatively high loss (~0.170) and steadily decreased to a very low value (~0.006), indicating that the neural network effectively learned the OR gate logic.
 
 ## Requirements
 - Python 3.x
 - NumPy
 - Pandas
 - Jupyter Notebook (for visualization)
-
-## How to Run
-1. Run `raw_nn.py` to train the model and generate `loss_values_gates.csv`.
-2. Open `graphs.ipynb` in Jupyter Notebook to plot and visualize the loss graph.
